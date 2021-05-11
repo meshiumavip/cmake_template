@@ -4,7 +4,7 @@
 #include "system.h"
 #include "error.h"
 
-int32_t debug_log(char *filename, int32_t line, const char *funcname, char *str){
+int32_t template_logger(char *filename, int32_t line, const char *funcname, char *str){
     FILE *file;
     if ((file = fopen("cliquest.log" , "a")) == NULL) {
         printf("ファイルが開けませんでした");

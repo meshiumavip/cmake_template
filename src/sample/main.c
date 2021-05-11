@@ -4,6 +4,5 @@
 #include "system.h"
 
 void main() {
-    printf("test\n");
-  //  LOG("test");
+    template_log("test");
 }

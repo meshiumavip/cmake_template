@@ -1,10 +1,9 @@
 {
     "configurations": [
         {
-            "name": "Linux",
+            "name": "cmake_template",
             "includePath": [
-                "${workspaceFolder}/include",
-                "/home/wsl/template/include"
+                "${workspaceFolder}/**",
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",
