@@ -3,7 +3,7 @@
         {
             "name": "cmake_template",
             "includePath": [
-                "${workspaceFolder}/**",
+                "${workspaceFolder}/include"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",
