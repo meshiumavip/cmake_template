@@ -1,10 +1,10 @@
-#include <stdio.h>
 #include <stdint.h>
+#include <stdio.h>
 #include <string.h>
-#include "system.h"
 #include "sample.h"
+#include "system.h"
 
 void main() {
-    template_log("test");
-    printf("sum %d", sample_func(1, 2));
+  template_log("test");
+  printf("sum %d", sample_func(1, 2));
 }
